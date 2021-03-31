@@ -16,27 +16,7 @@ Below is the function definition.
 
 ``` r
 library(renv)
-#> 
-#> Attaching package: 'renv'
-#> The following object is masked from 'package:stats':
-#> 
-#>     update
-#> The following objects are masked from 'package:utils':
-#> 
-#>     history, upgrade
-#> The following objects are masked from 'package:base':
-#> 
-#>     load, remove
 library(tidyverse)
-#> ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
-#> ✓ ggplot2 3.3.0     ✓ purrr   0.3.4
-#> ✓ tibble  3.0.5     ✓ dplyr   1.0.5
-#> ✓ tidyr   1.1.2     ✓ stringr 1.4.0
-#> ✓ readr   1.4.0     ✓ forcats 0.5.0
-#> ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-#> x dplyr::filter() masks stats::filter()
-#> x dplyr::lag()    masks stats::lag()
-#> x purrr::modify() masks renv::modify()
 
 # Create empty lockfile. Use system call because it will be completely empty
 # system("touch renv.lock")
