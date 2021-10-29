@@ -3,6 +3,12 @@
 
 # Convert manifest.json to renv.lock
 
+## NOTE - Use {renv} 
+
+The current CRAN version of `renv` provides a function `renv:::renv_lockfile_from_manifest()` to convert a manifest file to `renv.lock` file.
+
+-----
+
 As the R community moves away from packrat towards its successor, renv,
 it is becoming increasingly more commonplace to convert from packrat to
 renv. But how can we take a manifest.json file and turn it into an
